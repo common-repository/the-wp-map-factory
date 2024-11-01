@@ -1,0 +1,7 @@
+Red: 255 0 0
+Dark green: 0 158 0
+Yellow: 255 255 0
+Pink: 255 0 255
+Orange: 255 128 0
+Blue: 0 128 255
+Purple: 128 0 255

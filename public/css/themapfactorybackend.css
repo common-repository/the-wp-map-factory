@@ -1,0 +1,204 @@
+/**
+ * New and edit map page
+ */
+.wp-picker-container .wp-color-result.button {
+    padding: 0;
+}
+
+#tmf-marker-fill-selected-color, #tmf-marker-stroke-selected-color, #tmf-circle-fill-selected-color, #tmf-circle-stroke-selected-color, #tmf-circle-mouseover-fill-selected-color, #tmf-circle-mouseover-stroke-selected-color, #tmf-polygon-fill-selected-color, #tmf-polygon-stroke-selected-color, #tmf-polygon-mouseover-fill-selected-color, #tmf-polygon-mouseover-stroke-selected-color, #tmf-polyline-stroke-selected-color, #tmf-polyline-symbol-fill-selected-color, #tmf-polyline-symbol-stroke-selected-color, #tmf-polyline-mouseover-stroke-selected-color, #tmf-polyline-mouseover-symbol-fill-selected-color, #tmf-polyline-mouseover-symbol-stroke-selected-color, #tmf-chart-selected-color { 
+    background-color: #ff0000;
+    height: 25px;
+    width: 40px;
+}
+
+.tmf-marker-block {
+    display: none;
+}
+
+.tmf-marker-image {
+    cursor: pointer;
+}
+
+.tmf-marker-image-container {
+    margin-right: 3px;
+}
+
+.tmf_tablinks {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-left: .5em;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    background: #e5e5e5;
+    color: #555;
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+    bottom: -1px;
+}
+
+.tmf_tablinks.active {
+    background-color: white;
+    border-bottom: 1px solid white;
+    bottom: -1px;
+    position: relative;
+}
+
+.tmf_tablinks:hover {
+    background-color: white;
+    color: #444;
+}
+
+.tmf_tabcontent {
+    background-color: white;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+.tmf_tabcontent.h3{
+    margin-top: 0px;
+}
+
+.tmf_tab {
+    padding-bottom: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tmf-license-warning {
+    border: #ccc solid 1px;
+    color: red;
+    margin: 25px 7px 25px 0;
+    padding: 0px 15px;
+}
+
+.tmf_subheading {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.tmf-license-info-box {
+    margin-top: 10px;
+}
+
+.tmf-settings-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.tmf-settings-group-lhs {
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.tmf-settings-group-lhs label {
+    cursor: default;
+}
+
+.tmf-settings-group-rhs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tmf-settings-group-rhs-no-flex {
+    display: block;
+    flex-wrap: nowrap;
+}
+
+.tmf-settings-group-rhs-spacer {
+    margin: 0 20px 0 0;
+}
+
+.tmf-row-title{
+    display: block;
+    float: left;
+    width: 250px;
+}
+ 
+.tmf-row-content{
+    float: left;
+    padding-bottom: 1em;
+}
+ 
+.tmf-row-content label{
+    display: block;
+    line-height: 1.75em;
+}
+
+.tmf-form-input-field-very-wide {
+    width: 800px;   
+}
+
+.tmf-form-input-field-wide {
+    width: 400px;   
+}
+
+.tmf-form-input-field {
+    width: 120px;
+}
+
+.tmf-form-text-area {
+    width: 260px;
+}
+
+.tmf-inline-block {
+    display: inline-block!important;
+}
+
+#tmf_chart {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.tmf-form-helptext {
+    margin-bottom: 30px;
+    margin-top: -12px;
+    font-style: italic;
+}
+
+.small-margin-bottom {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.tmf-button {
+    cursor: pointer;
+}
+
+.tmf-buttons {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.tmf-buttons-left {
+    text-align: left;
+}
+
+.tmf-license-button {
+    margin: 10px 0 10px 3px;
+}
+
+.tmf-license-text {
+    margin-left: 3px;
+}
+
+/**
+ * Settings page
+ */
+#tmf-settings-input-field {
+    width: 400px;
+}
+
+table {
+    margin: 20px 0 30px 0;
+}
+
+td.tmf-table-row-activate, th.tmf-table-row-activate {
+    padding: 0 0 0 10px;
+}

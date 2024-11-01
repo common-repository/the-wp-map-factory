@@ -1,0 +1,176 @@
+/**
+ * Frontend map page
+ */
+.tmf-map, #tmf-map-thumbnail {
+    height: 100%;
+    width: 100%;
+}
+
+#tmf-map-thumbnail-wrapper {
+	border: 2px solid white;
+	bottom: 95px;
+	box-shadow: 0 0 2px #ddd;
+	cursor: pointer;
+	height: 70px;
+	left: 10px;
+	position: relative;
+	width: 120px;
+}
+
+#tmf-map-thumbnail-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+    width: 100%;
+}
+
+#tmf-map-thumbnail-text {
+	background-color: transparent;
+    height: 100%;
+    position: absolute;
+    right: -5px;
+    top: 50px;
+    width: 100%;
+    z-index: 999;
+    color: white;
+}
+
+#tmf-map-thumbnail-overlay-text {
+	color: white;
+	font-size: 12px;
+	padding: 5px 0 0px 5px;
+}
+
+/*Removes google logo etc from second map*/
+#tmf-map-thumbnail a[href^="http://maps.google.com/maps"] {display:none !important}
+#tmf-map-thumbnail a[href^="https://maps.google.com/maps"] {display:none !important}
+#tmf-map-thumbnail .gmnoprint a, #tmf-map-thumbnail .gmnoprint span, #tmf-map-thumbnail .gm-style-cc {
+    display:none;
+}
+#tmf-map-thumbnail .gmnoprint div {
+    background:none !important;
+}
+
+.tmf-hidden {
+	display: none;
+}
+
+#tmf-placecard-container-outer {
+	position: relative;
+}
+
+.tmf-placecard-container-mid {
+	z-index: 9999;
+	position: absolute;
+}
+
+.tmf-placecard-container-inner {
+	box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+	max-width: 330px;
+	width: 100%;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+	border-radius: 2px 2px 2px 2px;
+	font: normal normal normal normal 11px / normal Roboto, Arial, sans-serif;
+	margin: 10px;
+	padding: 9px 4px 9px 11px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tmf-placecard-left {
+	width: 75%;
+}
+  
+.tmf-placecard-right {
+	display: flex;
+    text-align: center;
+    width: 25%;
+}
+  
+#tmf-placecard-business-name {
+    cursor: default;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+    perspective-origin: 100px 9.5px;
+    transform-origin: 100px 9.5px;
+    font: normal normal 500 normal 14px / normal Roboto, Arial;
+    font-size: 14px;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+#tmf-placecard-info {
+	color: rgb(91, 91, 91);
+	cursor: default;
+	width: 200px;
+	column-rule-color: rgb(91, 91, 91);
+	perspective-origin: 100px 16px;
+	transform-origin: 100px 16px;
+	border: 0px none rgb(91, 91, 91);
+	font: normal normal normal normal 12px / normal Roboto, Arial;
+	font-size: 12px;
+	margin: 6px 0 10px 0;
+	outline: rgb(91, 91, 91) none 0px;
+}
+  
+.tmf-placecard-direction-icon {
+	background: rgba(0, 0, 0, 0) url("https://maps.gstatic.com/mapfiles/embed/images/entity11.png") repeat scroll 0px 0px / 70px 210px padding-box border-box;
+	height: 22px;
+	width: 22px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+  
+.tmf-placecard-direction-link {
+	color: rgb(58, 132, 223);
+	display: block;
+	height: 43px;
+	text-decoration: none;
+	width: 54px;
+}
+  
+.tmf-placecard-view-large {
+	display: block;
+	margin-top: 10px;
+	color: rgb(58, 132, 223);
+	text-decoration: none;
+}
+
+a#tmf-placecard-view-large, a#tmf-placecard-direction-link, .tmf-placecard-favourites-link-icon-container {
+	box-shadow: none;
+	color: rgb(58, 132, 223);
+	cursor: pointer;
+	font-size: 12px;
+}
+ 
+.tmf-navigate-separator {
+    background: -webkit-linear-gradient(top,#fbfbfb,#e2e2e2,#fbfbfb);
+    display: inline-block;
+	height: 43px;
+    margin: 0 5px;
+    vertical-align: top;
+    width: 1px;
+}
+
+.tmf-placecard-favourites-link-icon {
+	margin-bottom: 3px;
+	width: 22px;
+}
+
+.tmf-polyline-chart {
+	margin-top: 20px;
+}
+
+.tmf-meta-data-prompts {
+	margin-right: 20px;
+}
+
+.tmf-meta-data {
+	display: flex;
+}
